@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // Replace 'your-repo-name' with your actual repo name
 export default defineConfig({
   plugins: [react()],
-  base: 'https://github.com/Adv-2005/react-weather',
+  base: '/react-weather/',
 })
