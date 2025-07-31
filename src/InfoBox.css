@@ -1,10 +1,39 @@
-.info-box{
-    text-align: center;
-}
-.card-container{
+.info-box {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+}
+
+.card-container {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.02);
+}
+
+.MuiCard-root {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: white;
+}
+
+.MuiTypography-root {
+    color: white !important;
+}
+
+.info-row {
+    display: flex;
     align-items: center;
-    flex-direction: column;
-    margin-top: 2rem;
+    gap: 8px;
+    margin: 6px 0;
+}
+
+.info-icon {
+    color: #ffffffcc;
 }
