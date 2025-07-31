@@ -32,7 +32,8 @@ export default function WeatherApp() {
   return (
         <div className="weather-app">
             <div className="heading-box">
-    <h1>Weather Application</h1>
+    <h1>Nimbus </h1>
+    <h2><i>~Where clouds spill the tea!</i></h2>
 </div>
             <SearchBox updateInfo={updateWeatherData} />
             <InfoBox weatherData={weatherData} />
